@@ -246,6 +246,13 @@ footer {
         margin-right: 8px;
     }
 
+    /*13. lesson*/
+    .menu-list ul li a {
+        display: inline-block;
+        text-decoration: none;
+        color: var(--primary-color-text-dark);
+    }    
+
     .profile {
         display: grid;
         grid-template-columns: 1fr 2fr;
