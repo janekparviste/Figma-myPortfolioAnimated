@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&family=Russo+One&display=swap');
 
-* {
-    overflow-x: hidden;
-}
-
 :root {
     --primary-color-text: #a9a9a9;
     --primary-color-headlines: #d5bfdf;
@@ -17,6 +13,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 .container {
