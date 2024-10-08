@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&family=Russo+One&display=swap');
 
+* {
+    overflow: hidden;
+}
+
 :root {
     --primary-color-text: #a9a9a9;
     --primary-color-headlines: #d5bfdf;
@@ -254,7 +258,8 @@ footer {
 }
 
 @media (min-width: 600px) and (max-width: 1024px) {
-    .menu-panel, .close {
+    .menu-panel,
+    .close {
         display: none;
     }
 
@@ -296,7 +301,7 @@ footer {
         display: inline-block;
         text-decoration: none;
         color: var(--primary-color-text-dark);
-    }    
+    }
 
     .profile {
         display: grid;
@@ -456,7 +461,8 @@ footer {
 }
 
 @media (min-width: 1025px) {
-    .menu-panel, .close {
+    .menu-panel,
+    .close {
         display: none;
     }
 
@@ -502,12 +508,12 @@ footer {
         font-size: 32px;
         transition: transform 0.5s ease-in-out, text-shadow 0.5s ease-in-out;
     }
-    
+
     .menu-list ul li a:hover {
         transform: scale(1.5);
         text-shadow: 4px 4px 1px #7a777769;
-    }    
-/*13. lesson*/
+    }
+    /*13. lesson*/
     .profile {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -551,8 +557,8 @@ footer {
     }
 
     .profile-details button:hover {
-        box-shadow: 4px 4px 4px var(--primary-color-text);   
-    }    
+        box-shadow: 4px 4px 4px var(--primary-color-text);
+    }
 
     hr {
         width: 318px;
@@ -597,7 +603,7 @@ footer {
     .gallery-item img:hover {
         /*transform: scale(1.1);*/
         box-shadow: 10px 10px 10px #777;
-    }    
+    }
 
     .my-works-intro p {
         width: 923px;
@@ -684,7 +690,8 @@ footer {
         margin-bottom: 24px;
     }
 
-    input:focus, textarea:focus {
+    input:focus,
+    textarea:focus {
         outline: none;
         box-sizing: border-box;
         border-top: 2px solid var(--primary-color-headlines);
@@ -721,9 +728,9 @@ footer {
         display: block;
         width: 923px;
         text-align: start;
-        margin-left: 32px;        
+        margin-left: 32px;
     }
-    
+
     .contact-details {
         /*12. lesson*/
         display: block;
