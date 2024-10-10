@@ -77,3 +77,16 @@ menuLinks.forEach((link) => {
         menuPanel.classList.remove('active');
     });
 });
+
+window.addEventListener('resize', function () {
+    if (window.innerWidth > 600) {
+            modal.style.display = 'none';
+    }
+});
+
+var expandCollapse = function () {
+    if (window.innerWidth > 600) {
+            modal.style.display = 'none';
+    }
+};
+window.onresize = expandCollapse; // calls the function when the window first loads
